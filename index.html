@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Page Web Edgar Yao</title>
+</head>
+
+<body>
+
+    <header class="header" id="acceuil">
+        <div><img src="asset/images/logo.jpeg" width="100"> </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+            <div class="nav-links" id="nav-links">
+                <div class="close-menu" id="close-menu">✕</div>
+                <a href="index.html" class="active">ACCEUIL</a>
+                <a href="Apropos.html">A propos de moi</a>
+                <a href="MaPassion.html"> Ma passion </a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!----------------PAGE D'ACCEUIL---------------->
+    <section class="Acceuil">
+        <div class="contenu-acceuil">
+            <h1>YAO</h1>
+            <h2>YE ROCK EDGAR</h2>
+            <p>Futur Developeur Data IA </p>
+            <div class="btn-box">
+                <a href="Apropos.html">A propos de moi </a>
+                <a href="MaPassion.html"> Ma passion</a>
+            </div>
+        </div>
+
+        <div class="ma-photo">
+            <img src="asset/images/ma_photo.jpeg" alt="photo d'edgar yao">
+        </div>
+
+    </section>
+    <!----------------FOOTER---------------->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Mon Site</h3>
+                <p>Page Web Edgar Yao</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Liens</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="Apropos.html">À propos</a></li>
+                    <li><a href="MaPassion.html">Ma passion</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p>
+                    <i class="fa-solid fa-envelope"></i> Email :
+                    <a href="mailto:edgaryao2@gmail.com">edgaryao2@gmail.com</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i> Tél :
+                    <a href="tel:+2250500028163">+2250500028163</a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-github"></i></i> Git hub :
+                    <a href="https://github.com/edgary225" target="_blank">
+                        https://github.com/edgary225 </a>
+                </p>
+
+            </div>
+
+            <div class="fleche">
+                <a href="#acceuil" title="revenir en haut de la page"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 PageWebEdgarYao — Tous droits réservés
+        </div>
+        <!-- MESSAGE D'ACCEUIL -->
+        <div id="overlay"></div> <!-- fond flou -->
+        <div id="recruiter-message">
+            <button id="close-message" aria-label="Fermer">×</button>
+            <p id="message-text"></p>
+        </div>
+
+
+    </footer>
+    <script src="asset/Js/responsive_navbar.js"></script>
+    <script src="asset/Js/message_bienvenue.js"></script>
+
+
+</body>
+
+</html>
