@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (hour >= 6 && hour < 12) {
       message =
         "Ravi de vous accueillir en début de journée. Nous vous souhaitons agréable visite du site.";
-    else if (hour >= 12 && hour < 14) {
+    }else if (hour >= 12 && hour < 14) {
       message =
         "Ravi de vous accueillir a ce moment clé de la journée dédié a la pause. Nous vous souhaitons agréable visite du site.";
     } else if (hour >= 14 && hour < 18) {
@@ -46,4 +46,5 @@ document.addEventListener("DOMContentLoaded", () => {
     overlay.classList.remove("show");
   });
 });
+
 
